@@ -3,10 +3,10 @@ import { useTelegram } from "./hooks/useTelegram";
 
 const App = () => {
   const { tg } = useTelegram();
-
+  
   useEffect(() => {
-    tg.ready();
-  }, []);
+    tg.ready()
+  });
 
   return (
     <div>
