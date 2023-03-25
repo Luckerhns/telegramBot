@@ -1,3 +1,7 @@
+* {
+    background-color: coral;    
+}
+
 .form {
     display: flex;
     flex-direction: column;
